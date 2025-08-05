@@ -1,0 +1,13 @@
+# In file: verifier_app/Cargo.toml
+[package]
+name = "verifier_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bulletproofs = { version = "4.0.0", features = ["std"] }
+curve25519-dalek-ng = "4.1.1"
+merlin = "3.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+base64 = "0.22.1"

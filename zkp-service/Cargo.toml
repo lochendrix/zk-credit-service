@@ -1,0 +1,5 @@
+# /zkp-service/Cargo.toml
+[workspace]
+members = [ "zk_api", "zk_common",
+    "zk_core",
+]

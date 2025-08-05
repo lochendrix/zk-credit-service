@@ -1,0 +1,13 @@
+[package]
+name = "zk_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = "0.7.5"
+redis = { version = "0.25.3", features = ["tokio-comp"] }
+serde = "1.0"
+serde_json = "1.0"
+uuid = { version = "1.8.0", features = ["v4"] }
+zk_common = { path = "../zk_common" }
