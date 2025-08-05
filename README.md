@@ -6,7 +6,7 @@
 
 This project is a proof-of-concept for a privacy-preserving financial service that allows a third party (e.g., a bank) to verify that a user's credit score is above a certain threshold, without ever revealing the actual score.
 
-It uses Bulletproofs, an efficient Zero-Knowledge Proof (ZKP) system, to generate cryptographic proofs for range-based statements. The entire system is built in Rust as a scalable, containerized application.
+It uses [Bulletproofs](https://crypto.stanford.edu/bulletproofs/), an efficient Zero-Knowledge Proof (ZKP) system, to generate cryptographic proofs for range-based statements. The entire system is built in Rust as a scalable, containerized application.
 
 ---
 
